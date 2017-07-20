@@ -14,11 +14,12 @@ package notAString;
 		public static void main(String args[]) // main program
 		{
 		String case1 = "going to happen";
-		String case2 = "a";
+		String case2 = "git";
 		String case3 = "not intrested";
-		String expected1 = "not goin to happen";
-		String expected2 = "not a";
+		String expected1 = "not going to happen";
+		String expected2 = "git not";
 		String expected3 = "not intrested";
+		
 
 		String str = notAString("String"); // Assigning value to str
 		System.out.println(str);
